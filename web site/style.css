@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://www.teahub.io/photos/full/195-1954641_32k-ultra-hd-wallpapers-related-keywords-4k-manzara.jpg);
+    background-size: cover; /**resim taştı resmi ekrana tam uydurdum**/
+}
+img{
+    height: 200px;
+    border-radius: 50%; /**resmi yuvarlak yaptım**/
+    transition: 0.5s; /**efekt**/
+    cursor: pointer; /**resme gelince fare el işareti oluyo**/
+}
+
+.box img:hover{
+    transform: scale(0.9); /**efekt**/
+}
+
+.box{
+    width: 500px; /**kutunun genişliği**/
+    height: 550px;/**kutunun büyüklüğü**/
+    background: #6b5858;/**kutunun rengi**/
+    margin: auto;/**kutuyu ortaya aldım**/
+    margin-top: 180px;/**kutuyu ekranın ortasına aldım**/
+    padding: 40px;/**padding vererek biraz daha genişlettim**/
+    text-align: center;/**text-align center ile yazıları ortaladım**/
+    color: white;/**yazıların rengini beyaz yaptım**/
+    font-family: sans-serif;/**yazıların fontunu değiştirdim**/
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box li{
+    display: inline-block; /**noktaları sildim**/
+    margin: 6px; /**ikonlar arası boşluk braktım**/
+    list-style: none;
+}
+
+.box li a{
+    color: white; /**renklerini beyaz yaptım**/
+    font-size: 60px; /**büyüttüm**/
+    transition: all ease-in-out 250ms; /**efekt**/
+}
+
+.box li a:hover{
+    color: #b9b9b9; /**efekt**/
+}
